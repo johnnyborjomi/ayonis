@@ -1,0 +1,23 @@
+@import "normalize.css";
+@import "elements.css";
+
+@import "header.css";
+@import "footer.css";
+
+@import "preview.css";
+@import "portfolio.css";
+@import "services.css";
+@import "expertise.css";
+@import "about-us.css";
+
+@import "fonts.css";
+
+@import "media.css";
+
+body{
+  overflow-x: hidden;
+}
+
+
+
+

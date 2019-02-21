@@ -1,0 +1,112 @@
+@import "main.css";
+
+section.portfolio {
+  justify-content: space-around;
+}
+
+.portfolio {
+  background-image: url("../images/portfolio/portfolio-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+
+}
+
+.portfolio .container {
+  max-width: 1200px;
+  width: 100vw;
+}
+
+.portfolio .container article {
+  box-sizing: border-box;
+  flex: 1 1;
+  padding: 1em;
+}
+
+.portfolio .container article .card {
+  box-sizing: border-box;
+  padding: 1em;
+  border: 1px solid #D8D8D8;
+
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100%;
+  font-size: 0.8em;
+  color: #0D2731;
+}
+
+.portfolio span {
+  text-align: center;
+}
+
+.portfolio .container article {
+  flex-direction: column;
+}
+
+.portfolio .container article .logo-block {
+  text-align: center;
+}
+
+.portfolio .container article a {
+  color: #0D2731;
+  line-height: 4em;
+}
+
+.portfolio .container article a:hover {
+  color: #1DC8D6;
+  text-decoration: underline;
+}
+
+[class^=work-logo] {
+  width: 168px;
+  height: 58px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 168px 58px;
+
+}
+
+.work-logo-1 {
+  background-image: url("../images/portfolio/img-our-works-2.png");
+}
+
+.work-logo-2 {
+  background-image: url("../images/portfolio/img-our-works-1.png");
+}
+
+.work-logo-3 {
+  background-image: url("../images/portfolio/img-our-works-2.png");
+}
+
+.work-logo-4 {
+  background-image: url("../images/portfolio/img-our-works-4.png");
+}
+
+.work-logo-5 {
+  background-image: url("../images/portfolio/img-our-works-3.png");
+}
+
+.work-logo-6 {
+  background-image: url("../images/portfolio/img-our-works-4.png");
+}
+
+.portfolio .container article {
+  flex-basis: 30%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .portfolio .container article {
+    flex-basis: 50%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .portfolio .container article {
+    flex-basis: 100%;
+  }
+}
+
+

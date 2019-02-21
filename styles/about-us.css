@@ -1,0 +1,44 @@
+@import "main.css";
+
+
+.about-us p{
+  font-size: 0.8em;
+  color: #0D2731;
+  padding: 2em 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+p.column-style {
+  max-width: 740px;
+  text-align: start;
+  column-count: 2;
+  column-gap: 3em;
+}
+
+.about-us .container{
+  flex-flow: inherit;
+  margin-bottom: auto;
+  margin-top: 0;
+}
+
+.about-picture{
+  width: 100vw;
+  height: 27.7vw;
+  background: url("../images/about-us.png");
+  background-position: center;
+  background-size: cover;
+  max-width: 740px;
+  max-height: 205px;
+}
+
+.about-us button{
+  margin-bottom: 3em;
+}
+
+@media screen and (max-width: 768px) {
+  .expertise .container{
+    justify-content: center;
+  }
+}

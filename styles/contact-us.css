@@ -1,0 +1,102 @@
+@import "main.css";
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+form.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  max-width: 555px;
+}
+
+.fieldset {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.fieldset label {
+  flex: 1 1 auto;
+  padding: 5px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fieldset label span {
+  font-size: 12px;
+  line-height: 21px;
+  color: #0d2731;
+  font-weight: bold;
+}
+
+input[type=text],
+textarea {
+
+  border: 1px solid #d2dadd;
+  box-sizing: border-box;
+  height: 40px;
+  width: 100%;
+
+  padding-left: 10px;
+  font-size: 14px;
+  outline: none;
+
+  transition: all 300ms ease;
+}
+
+input[type=text]:focus,
+textarea:focus {
+  outline: none;
+
+  border-color: #1DC8D6;
+  box-shadow: 0 0 0 1px #1DC8D6;
+}
+
+textarea {
+  resize: none;
+  height: 170px;
+  padding-top: 10px;
+}
+
+form .btn {
+  align-self: center;
+  margin: 40px;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+}
+
+.location-icon {
+  display: inline-block;
+
+  width: 13px;
+  height: 19px;
+
+  margin: 5px;
+  vertical-align: middle;
+
+  background-image: url('../images/map-pointer.png');
+}
+
+.location-address {
+  padding: 40px 0px;
+  font-size: 0.8em;
+  color: rgba(13, 39, 49, 0.65);
+  text-align: center;
+}
+
+.location-map {
+  display: flex;
+  align-self: center;
+  height: 265px;
+  width: 100vw;
+  border: none;
+}

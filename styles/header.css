@@ -1,0 +1,87 @@
+header {
+  position: relative;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+
+  overflow: hidden;
+
+  padding: 0 80px;
+}
+
+header {
+  background-image: url('../images/img-video.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+header .logo {
+  background-image: url('../images/logo2x.png');
+  background-size: 141px 58px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 141px;
+  height: 55px;
+
+  padding: 20px 0;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav ul {
+  display: flex;
+  flex: 1 1;
+  align-items: center;
+}
+
+header nav a {
+  padding: 5px 15px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+header nav ul li a span {
+  padding-bottom: 2px;
+  transition: all 300ms ease-in;
+}
+
+header nav ul li a:hover span,
+header nav ul li a.active span {
+  box-shadow: 0 2px 0 0 #55C4D2;
+}
+
+.send-mail {
+  display: block;
+  padding: 10px;
+  box-shadow: 0 0 0 1px white;
+  transition: all 300ms ease-in;
+}
+
+.send-mail:hover {
+  background-color: white;
+  color: rgb(38, 45, 48);
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title > * {
+  margin: 0.5rem;
+}
+
+.vertical-separator {
+  height: 2em;
+  margin-right: 20px;
+  border-right: 1px solid #979797;
+  opacity: 0.44;
+}

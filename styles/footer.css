@@ -1,0 +1,73 @@
+footer {
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: space-between;
+
+  overflow: hidden;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  font-size: 10px;
+}
+
+footer .logo-container {
+  display: flex;
+  align-items: center;
+}
+
+footer .logo-container span {
+  font-size: 12px;
+  white-space: pre-wrap;
+  text-align: center;
+}
+
+footer .logo-container a{
+  width: 107px;
+  height: 38px;
+  background: url("../images/logo-footer(2x).png") center no-repeat;
+  background-size: 98px 38px;
+}
+
+footer nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 60px;
+  background-color: #2a4956;
+}
+
+footer .copyright {
+  padding: 10px;
+  background-color: #0a3542;
+  text-align: center;
+}
+
+footer nav a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* todo: dup from header - refac */
+footer nav {
+  display: flex;
+}
+
+footer nav ul {
+  display: flex;
+  align-items: center;
+}
+
+footer nav ul a {
+  padding: 5px 15px;
+}
+
+footer nav ul li a span {
+  padding-bottom: 2px;
+  transition: all 300ms ease-in;
+}
+
+footer nav ul li a:hover span,
+footer nav ul li a.active span {
+  box-shadow: 0 2px 0 0 #55C4D2;
+}
+
