@@ -1,3 +1,3 @@
 # aionys
 
-https://stepanoidteam.github.io/aionys/
+https://johnnyborjomi.github.io/ayonis/
